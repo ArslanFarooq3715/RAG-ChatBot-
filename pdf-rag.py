@@ -28,7 +28,7 @@ for message in st.session_state.messages:
 
 @st.cache_resource
 def get_vectorstore():
-    pdf_file = "/Users/af-home/Desktop/reflextion.pdf"
+    pdf_file = "./reflextion.pdf"
     
     # Load the PDF
     loader = PyPDFLoader(pdf_file)
